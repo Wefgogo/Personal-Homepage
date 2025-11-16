@@ -1,0 +1,110 @@
+export default {
+  nav: {
+    home: "Home",
+    projects: "Projects",
+    resume: "Resume",
+    blog: "Blog",
+    contact: "Contact",
+  },
+  home: {
+    greeting: "Hi, I'm",
+    name:"***",
+    subtitle: "A Computer Vision Researcher and Java Backend Developer",
+    position:
+      "Master's student in Computer Technology | Focus on Computer Vision & AI Systems",
+    viewProjects: "View Projects",
+    getInTouch: "Get in Touch",
+    aboutMe: "About Me",
+    aboutText1:
+      "I'm a passionate researcher and developer specializing in Computer Vision and AI systems. Currently pursuing my Master's degree in Computer Technology, I focus on cutting-edge technologies like Diffusion Models and 3D Gaussian Splatting (3DGS).",
+    aboutText2:
+      "With a strong foundation in Java backend development using Spring Boot and modern web technologies, I bridge the gap between research and practical applications. I'm committed to creating innovative solutions that push the boundaries of what's possible in AI and computer vision.",
+    education: "Education",
+    educationDesc: "Master's in Computer Technology",
+    research: "Research",
+    researchDesc: "Computer Vision & AI",
+    development: "Development",
+    developmentDesc: "Java Backend & Web",
+    featuredProjects: "Featured Projects",
+    viewAll: "View All Projects",
+  },
+  projects: {
+    title: "Projects",
+    description:
+      "Explore my research work, engineering projects, and open-source contributions",
+    all: "All Projects",
+    research: "Research",
+    engineering: "Engineering",
+    opensource: "Open Source",
+    noProjects: "No projects found in this category.",
+    categoryLabels: {
+      research: "Research",
+      engineering: "Engineering",
+      opensource: "Open Source",
+    },
+  },
+  resume: {
+    title: "Resume",
+    description:
+      "My educational background, work experience, and technical skills",
+    download: "Download PDF",
+    education: "Education",
+    experience: "Experience",
+    skills: "Technical Skills",
+    degree: "Master's Degree",
+    bachelor: "Bachelor's Degree",
+    gpa: "GPA",
+    skillCategories: {
+      backend: "Backend Development",
+      aiml: "AI/ML & Computer Vision",
+      frontend: "Frontend Development",
+      tools: "Tools & Others",
+    },
+  },
+  blog: {
+    title: "Blog",
+    description:
+      "Technical articles, research notes, and thoughts on AI and development",
+    readMore: "Read More",
+    backToBlog: "Back to Blog",
+    share: "Share this article",
+    noPosts: "No blog posts yet",
+    stayTuned: "Stay tuned for upcoming articles!",
+    notFound: "Post Not Found",
+    notFoundDesc: "The blog post you're looking for doesn't exist.",
+  },
+  contact: {
+    title: "Get In Touch",
+    description:
+      "Feel free to reach out for collaborations, opportunities, or just to say hi!",
+    sendMessage: "Send a Message",
+    name: "Name",
+    email: "Email",
+    subject: "Subject",
+    message: "Message",
+    send: "Send Message",
+    sending: "Sending...",
+    successMessage: "Message sent successfully! I'll get back to you soon.",
+    errorMessage:
+      "Failed to send message. Please try again or email me directly.",
+    contactInfo: "Contact Information",
+    location: "Location",
+    connectSocial: "Connect on Social Media",
+    placeholders: {
+      name: "Your Name",
+      email: "your.email@example.com",
+      subject: "What's this about?",
+      message: "Your message...",
+    },
+  },
+  footer: {
+    description: "Computer Vision Researcher & Java Backend Developer",
+    quickLinks: "Quick Links",
+    connect: "Connect",
+    rights: "All rights reserved.",
+    builtWith: "Built with Vue 3 + TypeScript",
+  },
+  common: {
+    readTime: "min read",
+  },
+};
